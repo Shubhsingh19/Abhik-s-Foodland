@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+  --primary: #ad2c00;
+  --primary-gradient: linear-gradient(135deg, #ad2c00, #d34011);
+  --surface: #ffffff;
+  --on-surface: #1b1c1c; 
+  --spacing-unit: 2rem;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--surface); 
+    color: var(--on-surface); 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.active {
+    color: var(--primary) !important;
+    font-weight: 700;
+}
+
+#logo-left a {
+    color: var(--on-surface);
+    font-size: 1.25rem; 
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.btn {
+    background-color: var(--primary); 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 6px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+
+.btn:hover {
+    background: var(--primary-gradient); 
+    transform: translateY(-1px); 
+    transition: 0.3s;
+}
