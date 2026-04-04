@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,20 +6,20 @@
 
 
 :root {
-  --primary: #ad2c00;
-  --primary-gradient: linear-gradient(135deg, #ad2c00, #d34011);
-  --surface: #ffffff;
-  --on-surface: #1b1c1c; 
-  --spacing-unit: 2rem;
+    --primary: #ad2c00;
+    --primary-gradient: linear-gradient(135deg, #ad2c00, #d34011);
+    --surface: #ffffff;
+    --on-surface: #1b1c1c;
+    --spacing-unit: 2rem;
 }
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: var(--surface); 
-    color: var(--on-surface); 
+    background-color: var(--surface);
+    color: var(--on-surface);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,25 +33,25 @@ nav{
 
 #logo-left a {
     color: var(--on-surface);
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
     gap: 30px;
 
 }
 
-a{
+a {
     text-decoration: none;
     color: #333;
 }
 
 .btn {
-    background-color: var(--primary); 
-    color: white; 
-    padding: 10px 20px; 
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
     border-radius: 6px;
     font-weight: 600;
     border: none;
@@ -61,7 +61,120 @@ a{
 
 
 .btn:hover {
-    background: var(--primary-gradient); 
-    transform: translateY(-1px); 
+    background: var(--primary-gradient);
+    transform: translateY(-1px);
     transition: 0.3s;
 }
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 8%;
+}
+
+.left {
+    flex: 1;
+    /* Yeh bacha bachi hui jagah le lega */
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    /* Image ko ekdum right mein chipkane ke liye */
+    position: relative;
+    /* Floating box ke liye relative position */
+}
+
+.right img {
+    width: 100%;
+    max-width: 500px;
+    /* Image ko bahut bada hone se rokne ke liye */
+    border-radius: 20px;
+    /* Screenshot wala rounded look dene ke liye */
+}
+
+.floating-box {
+    position: absolute;
+    bottom: -30px;
+    /* Niche se 30px bahar nikalo */
+    left: -40px;
+    /* Left se 40px bahar nikalo */
+
+    /* Baki styling jo tune pehle likhi thi */
+    background: white;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    /* Thoda gehra shadow taaki wo 'floating' lage */
+}
+
+.highlight {
+    color: #b35900;
+    /* Ranchi Road wala classic color */
+}
+
+.left h1 {
+    font-size: 58px;
+    /* Kaafi bada aur impact wala */
+    line-height: 1.1;
+    /* Lines ko thoda chipkao taaki design compact lage */
+    color: #1a1a1a;
+    /* Deep charcoal black */
+    margin-bottom: 20px;
+    /* Niche wale paragraph se thodi doori */
+    font-weight: 700;
+}
+
+.left p {
+    font-size: 18px;
+    color: #555;
+    /* Thoda soft grey taaki heading zyada chamke */
+    line-height: 1.6;
+    /* Reading mein easy banane ke liye gap */
+    margin-bottom: 40px;
+    /* Buttons se pehle thoda space */
+    max-width: 450px;
+    /* Text ko bahut lamba hone se roko */
+}
+
+.hero-btns {
+    display: flex;
+    gap: 20px;   /* Dono buttons ke beech ka gap */
+}
+
+
+.btn-primary {
+    background-color: #b35900; /* Tera highlight color */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s; /* Hover effect ke liye smooth transition */
+}
+
+.btn-primary:hover {
+    background-color: #8a4500; /* Thoda dark shade on hover */
+}
+
+
+.btn-secondary {
+    background-color: #e0e0e0; /* Light grey look */
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Icon aur text ke beech gap */
+    cursor: pointer;
+}
+
+
+
+
