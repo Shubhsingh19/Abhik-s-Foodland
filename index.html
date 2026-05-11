@@ -1,57 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abhik's Foodland - Authentic Flavors</title>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhik's Foodland - Home</title>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav>
-    <div id="logo-left">
-      <a href="index.html"><strong>Abhik's Foodland</strong></a>
-    </div>
 
-    <div id="link-center">
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-
-    <div id="cta-button">
-      <button class="btn" link="contact.html">Contact Us</button>
+  <nav id="navbar">
+    <div class="container">
+      <div class="brand">Abhik's Foodland</div>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="visit.html">Visit Us</a>
+      </div>
+      <a href="visit.html" class="btn-visit">Visit Us</a>
     </div>
   </nav>
 
-  <section class="hero">
-    <div class="left">
-      <span class="stb">Established 2024</span>
-      <h1>Culinary Craft on <span class="highlight">Ranchi Road.</span></h1>
-      <p>
-        Experience the authentic soul of Harnaut's finest kitchen. Minimalist
-        presentation, maximalist flavor.
-      </p>
-      <div class="hero-btns">
-        <button class="btn-primary">Explore Our Menu</button>
-        <button class="btn-secondary">Visit Us</button>
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="tagline">Established 2024</span>
+        <h1>Culinary Craft on <br><span>Ranchi Road.</span></h1>
+        <p>Experience the authentic soul of Harnaut's finest kitchen. Minimalist presentation, maximalist flavor.</p>
+        <div class="hero-btns">
+          <a href="menu.html" class="btn-primary">Explore Our Menu</a>
+          <a href="visit.html" class="btn-secondary">Visit Us</a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&q=80&w=1200"
+          alt="Featured Dish" class="hero-image">
+        <div class="floating-label">
+          <div class="italic">Authentic</div>
+          <div class="sub">Harnaut's Choice</div>
+        </div>
       </div>
     </div>
-    </div>
-    <div class="right">
-      <img src="unnamed.png" alt="Food Image" />
-      <div class="floating-box">
-        <h4>Authentic</h4>
-        <p>HARNAUT'S CHOICE</p>
+  </header>
+
+  <section class="specials">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="tag">Chef's Selection</span>
+          <h2>Our Specials</h2>
+        </div>
+        <p>Carefully curated dishes using ingredients sourced daily from local Ranchi Road markets.</p>
+      </div>
+
+      <div class="specials-grid">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800"
+              alt="Chilli Paneer" class="card-img">
+          </div>
+          <div class="card-header">
+            <h3>Chilli Paneer</h3>
+            <span class="price">₹280</span>
+          </div>
+          <p>Wok-tossed paneer cubes with scorched peppers and organic soy glaze.</p>
+          <a href="#">Contact Us →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&q=80&w=800"
+              alt="Paneer Lababdar" class="card-img">
+          </div>
+          <div class="card-header">
+            <h3>Paneer Lababdar</h3>
+            <span class="price">₹320</span>
+          </div>
+          <p>Slow-simmered tomato cream gravy infused with hand-ground spices.</p>
+          <a href="#">Contact Us →</a>
+        </div>
+
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1563379091339-03b21bc4a4f8?auto=format&fit=crop&q=80&w=800"
+              alt="Chicken Biryani" class="card-img">
+          </div>
+          <div class="card-header">
+            <h3>Chicken Biryani</h3>
+            <span class="price">₹380</span>
+          </div>
+          <p>Fragrant long-grain basmati, layered with marinated chicken and saffron.</p>
+          <a href="#">Contact Us →</a>
+        </div>
       </div>
     </div>
   </section>
+
+  <section class="visit">
+    <div class="container visit-grid">
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1200"
+        alt="Interior" class="visit-img">
+      <div>
+        <span class="tag"
+          style="color: #D84315; font-size: 0.65rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.3em; display: block; margin-bottom: 1rem;">Visit
+          Us</span>
+        <h2 style="font-size: 3rem; margin-bottom: 2rem;">Find us on Ranchi Road.</h2>
+        <p style="color: #57534e; margin-bottom: 2rem;">Nestled in the heart of Harnaut, our space is designed for those
+          who appreciate the intersection of modern aesthetics and traditional hospitality.</p>
+
+        <ul class="info-list">
+          <li class="info-item">
+            <div class="info-icon">🕒</div>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon — Sun: 11:00 AM - 11:00 PM</p>
+            </div>
+          </li>
+          <li class="info-item">
+            <div class="info-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 91724 73570</p>
+            </div>
+          </li>
+          <li class="info-item">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>Harnaut, Ranchi Road, Bihar 803110</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4 class="brand">Abhik's Foodland</h4>
+        <p>Fine dining meets modern simplicity on Ranchi Road, Harnaut.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Navigation</h5>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal & Social</h5>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Newsletter</h5>
+        <div class="newsletter">
+          <input type="email" placeholder="Email Address">
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">
+      &copy; 2024 Abhik's Foodland. Ranchi Road, Harnaut.
+    </div>
+  </footer>
 </body>
 
 </html>
