@@ -516,6 +516,32 @@ footer {
     border-radius: 4px
 }
 
+.combo-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("chicken\ chilli\ combo.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+.combo-bg .section-title,
+.combo-bg .item-name,
+.combo-bg .item-price,
+.combo-bg .tax-note {
+    color: white;
+}
+
 .section-title {
     color: var(--primary-orange);
     font-size: 1.75rem;
