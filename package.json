@@ -1,0 +1,19 @@
+{
+  "name": "abhiks-foodland",
+  "version": "1.0.0",
+  "description": "Abhik's Foodland - Fine dining restaurant website with Vercel Web Analytics",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "restaurant",
+    "foodland",
+    "harnaut",
+    "bihar"
+  ],
+  "author": "Abhik's Foodland",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
