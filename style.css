@@ -806,7 +806,7 @@ footer {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.38),
             rgba(0, 0, 0, 0.38)),
-        url("desert.jpg");
+        url("Desert.jpg");
 
     background-size: cover;
     background-position: center;
@@ -825,7 +825,7 @@ footer {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.38),
             rgba(0, 0, 0, 0.38)),
-        url("braincooler.jpg");
+        url("Braincooler.jpg");
 
     background-size: cover;
     background-position: center;
