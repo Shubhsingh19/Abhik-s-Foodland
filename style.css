@@ -516,6 +516,326 @@ footer {
     border-radius: 4px
 }
 
+
+
+
+
+.soup-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("soup.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.burger-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("burger.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+
+.bread-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("bread.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.roll-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("roll.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.indievg-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("indian-veg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.starters-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("starters.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.pizza-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("pizza.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.dal-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("dal.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.indian-vg-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("indian-veg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+.nonvegindie-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("Mutton\ masala.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+.chinesevg-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("chinesevg.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.chinese-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("Chicken\ lolipop.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.rice-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("rice.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+
+.noodles-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("noodles.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+.desert-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("desert.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
+.braincooler-bg {
+    position: relative;
+    overflow: hidden;
+
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.38),
+            rgba(0, 0, 0, 0.38)),
+        url("braincooler.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+
+
+
+    color: white;
+}
+
 .combo-bg {
     position: relative;
     overflow: hidden;
